@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400&family=Roboto&display=swap');
+
+        
+        *{
+            font-family: 'Mukta', sans-serif;
+            margin:0px;
+        }
+        /* NavBar STart */
+        .navbar ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            gap:5%;
+            line-height: 70px;
+            background-color: black;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: grey;
+            
+        }
+        .navbar ul li a:hover{
+            color: white;
+            text-decoration:2px underline grey;
+        }
+        /* Navabr End */
+        /* home section start */
+        
+        .home{
+            display: flex;
+            float: left;
+            justify-content: space-around;        
+            width: 100%;
+            height:100vh;
+            color: grey;
+            background-color: rgb(16, 15, 15);
+            
+           
+        }
+        .home-content{
+            margin-top: 100px;
+            margin-left:5% ;
+            text-align: justify;
+            min-width:278px;
+            max-width: 461px;
+            min-height: 229px;
+            max-height: 337px;
+            max-height: 229px;
+        }
+        .name{
+            font-size: 55px;
+            color: red;
+          
+        }
+        .home-img{
+            margin-top:70px;
+            margin-right:5%;
+        }
+
+        .home-img img{
+            margin: 20px;
+            width: 400px;
+            height:400px;
+            transition: all 1s;
+
+        }
+        .home-img img:hover{
+            transform: translateY(30px);
+        }
+        .tribute{
+            font-size: 30px;
+            color: rgb(186, 179, 179);
+        }
+       
+        /* Home Section end */
+
+        /* ABout page start */
+       .about{
+        width:100%;
+        height:100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height:100vh;
+        background-color: grey;
+        color: rgb(48, 54, 58);
+       }
+       .about-para p{
+        width:600px;
+        margin:20px;
+        text-align: justify;
+        padding: 10px;
+       }
+       .about-img {
+        width: 400px;
+        border-radius: 45%;
+        
+       }   
+       .about-para h1{
+        text-align: center;
+        font-size:40px;
+        color: black;
+       }    
+/* About Page end */
+.achivemts{
+    width: 100%;
+    height: 100vh;
+    color: rgb(42, 35, 35);
+    background-color: rgb(217, 202, 202);
+
+}
+.his-ach{
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+ 
+  width: 100%;
+  height: 100vh;
+ 
+}
+.his-ach p{
+    text-align: justify;
+    
+   
+}
+.his-ach div{
+    width:250px;
+}
+.ach-head{
+    text-align:center ;
+    font-size:30px ;
+}
+
+.breif{
+    padding: 100px;
+    background-color: black;
+    color: grey;
+    text-align: justify;
+
+}
+.breif h1{
+    font-size: 40px;
+    color: brown;
+}
